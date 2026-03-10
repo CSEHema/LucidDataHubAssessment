@@ -15,6 +15,9 @@
 
  Then the duplicate mails are stored in an array to print it on to display.
 
+
+ Another way to this can be to use a hashset, and identify if a given mail has been visited or not. If visited, then it is a duplicate, which can be produced as an output later.
+
  ## Time complexity:
 Iterating and storing all emails into hashmap takes O(n) time. (where n=total number of mails in the given file)
 
