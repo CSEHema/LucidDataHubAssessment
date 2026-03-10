@@ -15,4 +15,4 @@ ranked AS (
 SELECT word, cnt
 FROM ranked
 WHERE rnk <= 10
-ORDER BY rnk;
+ORDER BY cnt;
