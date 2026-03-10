@@ -14,7 +14,7 @@ res_user=''
 
 for user,freq in user_action.items():
     if freq>maximum_active:
-        maximum_active=freq
+        maximum_active=freq   # High frequency of activity-> Most active user
         res_user=user
 print('User: ',res_user)
 
@@ -25,7 +25,7 @@ maximum_freq=0
 res_action=''
 for action, freq in action_count.items():
     if freq>maximum:
-        maximum_freq=freq
+        maximum_freq=freq  # High frequency of actions -> Most common action
         res_action=action
 print('Action: ',res_action)
 
