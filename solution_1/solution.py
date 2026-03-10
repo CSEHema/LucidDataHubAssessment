@@ -1,4 +1,5 @@
 #100 million mails are given which are read into the mails array
+from collections import Counter
 
 mails=list(map(str, input().split()))
 res=[]
