@@ -25,7 +25,7 @@ Task Write a program to compute:
 
  To identify the most active user, I have considered the users in the user array, represented by their user_ids. Then I went ahead and generated a hashmap of users along with their actions frequency. Then I have produced the user with the highest action frequency as the output. 
 
- ## To identify the most common action
+ ### To identify the most common action
 
  To identify the most common action, I have generated the hashmap for the actions and their frequencies. Thereby, the action with the highest frequency is produced as the output.
 
